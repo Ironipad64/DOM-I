@@ -79,13 +79,17 @@ ContactNav.textContent = (siteContent["nav"]["nav-item-6"]);
 
 const featuresh4 = document.querySelector(".main-content .top-content h4:nth-of-type(1)");
 featuresh4.textContent = (siteContent["main-content"]["features-h4"]);
-console.log(featuresh4);
+// console.log(featuresh4);
 
-const abouth4 = document.querySelector(".top-content h4:nth-of-type(2)");
+const abouth4 = document.querySelector(".main-content .top-content h4:nth-of-type(2)");
 abouth4.textContent = (siteContent["main-content"]["about-h4"]);
+
 const servicesh4 = document.querySelector("");
-servicesContent
+servicesh4.textContent = (siteContent["main-content"]["services-h4"])
 
 const producth4 = document.querySelector("");
+producth4.textContent = (siteContent["main-content"]["product-h4"])
+
 const visionh4 = document.querySelector("");
+visionh4.textContent = (siteContent["main-content"]["vision-h4"])
 
